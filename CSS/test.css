@@ -1,0 +1,164 @@
+/* Start of Global Rules */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --main-color : #00C7FC;
+    --second-color : rgb(15 116 143 / 70%);
+}
+
+body i {
+    font-family:'FontAwesome'!important;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+.h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.hr {
+    width: 122px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-49%);
+    letter-spacing: 1.4px;
+}
+
+
+.hr::before {
+    content: "";
+    position: absolute;
+    border: 1px solid black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: -9px;
+    left: 50%;
+    transform: translateX(-10px);
+    background-color: white;
+}
+
+.pp {
+    margin-top: 40px;
+    line-height: 1.8;
+    color: #8d8d8d;
+    margin-bottom: 90px;
+}
+
+@media (max-width: 768px) {
+    .h2 {
+        font-size: 29px;
+    }
+
+    .pp {
+        font-size: 14px;
+    }
+
+    .hr {
+        width: 85px;
+    }
+}
+
+.h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.hr {
+    background-color: black;
+    border: 0;
+    height: 2px;
+    width: 122px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-49%);
+    letter-spacing: 1.4px;
+}
+
+
+.hr::before {
+    content: "";
+    position: absolute;
+    border: 2px solid black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: -9px;
+    left: 50%;
+    transform: translateX(-10px);
+    background-color: white;
+}
+
+.pp {
+    margin-top: 40px;
+    line-height: 1.8;
+    color: #8d8d8d;
+    margin-bottom: 90px;
+    padding: 0 60px;
+}
+
+@media (max-width: 768px) {
+    .h2 {
+        font-size: 29px;
+    }
+
+    .pp {
+        font-size: 14px;
+    }
+
+    .hr {
+        width: 85px;
+    }
+}
+
+body {
+}
+
+/* End of Global Rules */
+
+
+
+
